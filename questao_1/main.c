@@ -60,11 +60,11 @@ int main(){
   int ***matriz, x=30, y=30, z=30, r_a=9, r_b=13, plan_z=4; // Valores default para testes;
   system("@cls||clear");
   printf("=====| Dimensões da matriz: \n");
-  printf("Quantidade de elementos na direção de X: ");
+  printf(".:: Quantidade de elementos na direção de X: ");
   scanf("%d", &x);
-  printf("Quantidade de elementos na direção de Y: ");
+  printf(".:: Quantidade de elementos na direção de Y: ");
   scanf("%d", &y);
-  printf("Quantidade de elementos na direção de Z: ");
+  printf(".:: Quantidade de elementos na direção de Z: ");
   scanf("%d", &z);
 
   printf("\n=====| Raios da elipse: \n");
@@ -73,7 +73,7 @@ int main(){
   printf(".:: Digite o raio maior (b) da elipse: ");
   scanf("%d", &r_b);
 
-  printf("\n=====| Seção de corte transversal: \n");
+  printf("\n=====| Seção de corte transversal no plano z: \n");
   printf(".:: Qual dimensão (z) deseja mostrar a elipse 0-%d? ", z-1);
   scanf("%d", &plan_z);
 

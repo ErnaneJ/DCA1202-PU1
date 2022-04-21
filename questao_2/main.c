@@ -1,3 +1,11 @@
+/*
+* Para mudar o estado de um determinado bit n podemos seguir dois possíveis, simples, caminhos: 
+* realizar um OR bit a bit (|) entre a variável a ser alterada e valor 0B00000001000000000000000000000000 
+* sendo 1 apenas o o bit que queremos que seja setado, sesse caso bit 24. Ou, para zerarmos, esse mesmo bit 24, 
+* podemos realizar um AND bit a bit (&) entre a variàvel desejada e o valor 0B11111110111111111111111111111111 sendo apenas
+* o bit que queremos zerado, nesse caso mais uma vez o bit 24.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

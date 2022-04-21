@@ -32,6 +32,11 @@ Resolução das questões referentes à prova da primeira unidade do curso de **
   ```bash
   $ gcc ./questao_2/main.c -o ./questao_2/main -w && ./questao_2/main
   ```
+
+- Para a questão 1 foi utilizada a `<math.h>`. Portanto, execute passando a flag `-lm`. O comando de execução para a questão 1 ficará assim:
+  ```bash
+  $ gcc ./questao_1/main.c -o ./questao_1/main -lm && ./questao_1/main
+  ```
 ---
 
 <div align="center">
