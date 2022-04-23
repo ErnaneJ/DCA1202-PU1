@@ -2,8 +2,6 @@
    Programação Avançada - DCA1202 | PU1.
 </h1>
 
-<br>
-
 ## 💻 Sobre
 
 Resolução das questões referentes à prova da primeira unidade do curso de **Programação Avançada** do Departamento de Engenharia de Computação e Automação (DCA) na Universidade Federal do Rio Grande do Norte (UFRN) no semestre de 2022.1.
