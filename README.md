@@ -24,16 +24,14 @@ Resolução das questões referentes à prova da primeira unidade do curso de **
   ```bash
   $ gcc ./questao_x/main.c -o ./questao_x/main && ./questao_x/main
   ```
-  
+- Para a questão 1 foi utilizada a `<math.h>`. Portanto, execute passando a flag `-lm`. O comando de execução para a questão 1 ficará assim:
+  ```bash
+  $ gcc ./questao_1/main.c -o ./questao_1/main -lm && ./questao_1/main
+  ```
 
 - Para a questão 2 foi utilizado um conceito não tão recomendado que irá gerar um **warning** no momento da execução do programa. Isso é natural para a resolução desse problema porém, caso queira oculta-lo passe a flag `-w` e ele não gritará na saída. O comando para a questão 2 ficará assim:
   ```bash
   $ gcc ./questao_2/main.c -o ./questao_2/main -w && ./questao_2/main
-  ```
-
-- Para a questão 1 foi utilizada a `<math.h>`. Portanto, execute passando a flag `-lm`. O comando de execução para a questão 1 ficará assim:
-  ```bash
-  $ gcc ./questao_1/main.c -o ./questao_1/main -lm && ./questao_1/main
   ```
 ---
 
